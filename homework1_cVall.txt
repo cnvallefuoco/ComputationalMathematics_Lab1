@@ -1,7 +1,3 @@
-Homework1
-Carina Vallefuoco
-
-2)
 In this problem, we were given f'(x) = (1/2h)(-3f(x)+4f(x+h)-f(x+2h)). In the theoretical work, we found that
 the error was second order. We see this when we run our m-file for this code, because as h decreases by a factor 
 of 10, the error decreases by a factor of 10^2. The second order error I found in the theoretical portion of the
@@ -26,7 +22,6 @@ run_numerical_diff
    1.0000e-16  -1.1102e+00   2.1102e+00
    1.0000e-17            0   1.0000e+00
 
-3)
 In the theoretical work for this problem, I found that the truncation error was (-h/2)(f''(Cx0)). We can say that
 the truncation error is first order. This statement is proven by the errors we got in matlab. The table below shows
 that as h decreases by a factor of 10, the error also decreases by a factor of 10. 
@@ -53,7 +48,6 @@ run_numerical_diff
    1.0000e-16   1.1102e+00   1.1022e-01
    1.0000e-17            0   1.0000e+00
 
-4)
 In the theoretical, I found the truncation error to be first order, specifically hf'(x). This means that when h decreases 
 by a factor of 10, the error decreases by a factor of 10. We can see that this pattern holds true in the table below. In 4c, 
 I found that the optimal h value for minimal error would be the cube root of epsilon, or 5.8e-6. At the h value closest to this
@@ -79,7 +73,7 @@ run_numerical_diff
    1.0000e-16  -4.9304e+00   3.9304e+00
    1.0000e-17            0   1.0000e+00
 
-5) 
+ 
 For this problem, although I forgot to find the order of the error in the theoretical part of the homework, I have now found
 it to be first order. We can see in the table below that the maximal order of accuracy is in fact first order. As h decreases 
 by a factor of 10, so does the error. 
@@ -102,5 +96,3 @@ run_numerical_diff
    1.0000e-15  -2.2204e+14   2.2204e+14
    1.0000e-16   2.2204e+16   2.2204e+16
    1.0000e-17            0   1.0000e+00
-
-
