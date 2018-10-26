@@ -1,1 +1,1 @@
-# ComputatonalMath_Lab1
+# ComputationalMath_Lab1
